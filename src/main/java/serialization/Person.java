@@ -1,31 +1,15 @@
 package serialization;
 
+import lombok.Getter;
+import lombok.Setter;
+import lombok.ToString;
+
 import java.io.Serializable;
 
+@Getter
+@Setter
+@ToString
 public class Person implements Serializable {
-	
-	public String getName() {
-		return name;
-	}
-	public void setName(String name) {
-		this.name = name;
-	}
-	@Override
-	public String toString() {
-		return "Person [name=" + name + ", designation=" + designation + ", age=" + age + "]";
-	}
-	public String getDesignation() {
-		return designation;
-	}
-	public void setDesignation(String designation) {
-		this.designation = designation;
-	}
-	public int getAge() {
-		return age;
-	}
-	public void setAge(int age) {
-		this.age = age;
-	}
 	private String name;
 	private String designation;
 	private int age;

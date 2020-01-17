@@ -20,7 +20,7 @@ public class SerializeAndDeserializeUsingAvro {
 	}
 	
 	private static void serializeAndDeserialize() throws Exception{
-		Schema schema = new Schema.Parser().parse(new File("C:/Users/Soumik/workspace/serialization/src/main/resources/user.avsc"));		
+		Schema schema = new Schema.Parser().parse(SerializeAndDeserializeUsingAvro.class.getClassLoader().getResourceAsStream("user.avsc"));		
 		GenericRecord user1 = new GenericData.Record(schema);
 		user1.put("name", "Alyssa");
 		user1.put("favorite_number", 256);
