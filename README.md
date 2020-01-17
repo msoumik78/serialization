@@ -3,7 +3,7 @@ This project gives a simple overview of the following ways of serialization and 
 * Using Java's out-of-the-box serialization technique 
 * Using Avro serialization technique
 
-Please also refer to my blog here [Soumik's blog on Java's default serialization](https://msoumik78.github.io/java/2017/10/12/java-serialization.html) and also this one : [Soumik's blog on Java's alternate serialization] (https://msoumik78.github.io/java/2019/01/30/Alternatives-to-Java-default-serialization.html)
+Please also refer to my blog here [Soumik's blog on Java's default serialization](https://msoumik78.github.io/java/2017/10/12/java-serialization.html) and also this one : [Soumik's blog on Java's alternate serialization](https://msoumik78.github.io/java/2019/01/30/Alternatives-to-Java-default-serialization.html)
 
 
 ### Dependencies
